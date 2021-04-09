@@ -1,0 +1,63 @@
+/* Debug */
+[class*="col-"] {
+    background-color: yellow;
+}
+
+header,
+footer,
+.references {
+    min-height: 100px;
+}
+header [class*="col-"],
+footer [class*="col-"],
+.references [class*="col-"] {
+    height: 100px;
+}
+
+.portfolio,
+.about,
+.contact-me {
+    height: 100px;
+    background-color: red;
+}
+
+.jumbo,
+.images,
+.contacts {
+    min-height: 300px;
+}
+.jumbo [class*="col-"] {
+    height: 300px;
+}
+
+.images [class*="col-"]:not(.portfolio) {
+    height: 300px;
+}
+
+
+.description {
+    min-height: 200px;
+}
+.description [class*="col-"]:not(.about) {
+    height: 200px;
+}
+
+.contacts [class*="col-"]:not(.contact-me){
+    height: 300px;
+}
+/* --Debug */
+
+/* Common */
+.dark-blue-bkg {
+    background-color: #2c3e50;
+}
+.acqua-bkg {
+    background-color: #1abc9c;
+}
+.grey-bkg {
+    background-color: #ecf0f0;
+}
+.blue-bkg {
+    background-color: #3a546d;
+}
+/* --Common */
