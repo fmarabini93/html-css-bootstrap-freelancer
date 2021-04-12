@@ -54,6 +54,12 @@ header {
     height: 80px;
     line-height: 80px;
 }
+header a {
+    color: #ffffff;
+}
+header a:hover {
+    color: #ffffff;
+}
 header i {
     padding: 5px;
     border: 1px solid #ffffff;
@@ -88,6 +94,7 @@ header li:nth-child(2) {
 /* Contacts */
 .contacts ul {
     list-style: none;
+    padding: 0;
 }
 .contacts li {
     padding-bottom: 10px;
@@ -95,9 +102,6 @@ header li:nth-child(2) {
 }
 .contacts li:last-child {
     padding-bottom: 50px;
-}
-.contacts button {
-    margin-left: 38px;
 }
 /* --Contacts */
 
@@ -119,7 +123,16 @@ header li:nth-child(2) {
 
 /* Bottom of the page */
 footer {
-    height: 80px;
-    line-height: 80px;
+    padding: 30px 0;
 }
 /* --Bottom of the page */
+
+/* Fix paraculo immagine jumbotron che slitta a destra */
+@media screen and (min-width: 401px) {
+    
+    .jumbo img {
+        height: 400px;
+    }
+
+}
+/* --Fix paraculo immagine jumbotron che slitta a destra */
