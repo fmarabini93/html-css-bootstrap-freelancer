@@ -19,17 +19,17 @@ p {
     text-transform: none;
 }
 
-.inline-b {
+.inline_b {
     display: inline-block;
 }
 
-.dark-blue-bkg {
+.dark_blue_bkg {
     background-color: #2c3e50;
 }
-.acqua-bkg {
+.acqua_bkg {
     background-color: #1abc9c;
 }
-.grey-bkg {
+.grey_bkg {
     background-color: #ecf0f0;
 }
 
@@ -37,11 +37,11 @@ p {
     text-transform: uppercase;
 }
 
-.blue-txt {
+.blue_txt {
     color: #3a546d;
 }
 
-.my-btn {
+.my_btn {
     margin: 20px 0;
     color: #ffffff;
     border-color: #ffffff;
