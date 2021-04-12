@@ -7,21 +7,16 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
+    margin: 0;
+    padding: 20px 0;
     text-transform: uppercase;
     font-weight: bold;
 }
-h3 {
-    font-size: 20px;
-    font-weight: bold;
-}
-h4 {
-    font-size: 16px;
-}
-
 p {
     font-size: 18px;
-    font-weight: bold;
+    text-transform: none;
 }
 
 .inline-b {
@@ -37,22 +32,17 @@ p {
 .grey-bkg {
     background-color: #ecf0f0;
 }
-.blue-bkg {
-    background-color: #3a546d;
-}
 
 .uppercase {
     text-transform: uppercase;
 }
 
-.white-txt {
-    color: #ffffff;
-}
 .blue-txt {
     color: #3a546d;
 }
 
 .my-btn {
+    margin: 20px 0;
     color: #ffffff;
     border-color: #ffffff;
     background-color: #1abc9c;
@@ -100,6 +90,7 @@ header li:nth-child(2) {
     list-style: none;
 }
 .contacts li {
+    padding-bottom: 10px;
     border-bottom: 1px solid #3a546d;
 }
 .contacts li:last-child {
@@ -111,7 +102,24 @@ header li:nth-child(2) {
 /* --Contacts */
 
 /* References */
+.references {
+    padding-bottom: 20px;
+    background-color: #3a546d;
+}
+.references i {
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
 .references span span {
     color: #22a892;
 }
 /* --References */
+
+/* Bottom of the page */
+footer {
+    height: 80px;
+    line-height: 80px;
+}
+/* --Bottom of the page */
