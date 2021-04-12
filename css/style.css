@@ -1,53 +1,33 @@
-/* Debug */
-[class*="col-"] {
-    background-color: yellow;
-}
-
-header,
-footer,
-.references {
-    min-height: 100px;
-}
-header [class*="col-"],
-footer [class*="col-"],
-.references [class*="col-"] {
-    height: 100px;
-}
-
-.portfolio,
-.about,
-.contact-me {
-    height: 100px;
-    background-color: red;
-}
-
-.jumbo,
-.images,
-.contacts {
-    min-height: 300px;
-}
-.jumbo [class*="col-"] {
-    height: 300px;
-}
-
-.images [class*="col-"]:not(.portfolio) {
-    height: 300px;
-}
-
-
-.description {
-    min-height: 200px;
-}
-.description [class*="col-"]:not(.about) {
-    height: 200px;
-}
-
-.contacts [class*="col-"]:not(.contact-me){
-    height: 300px;
-}
-/* --Debug */
-
 /* Common */
+body {
+    color: #ffffff;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
 .dark-blue-bkg {
     background-color: #2c3e50;
 }
@@ -60,4 +40,78 @@ footer [class*="col-"],
 .blue-bkg {
     background-color: #3a546d;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.white-txt {
+    color: #ffffff;
+}
+.blue-txt {
+    color: #3a546d;
+}
+
+.my-btn {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #1abc9c;
+}
 /* --Common */
+
+/* Top bar */
+header {
+    height: 80px;
+    line-height: 80px;
+}
+header i {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #888888;
+}
+header li:nth-child(2) {
+    margin: 0 5px;
+}
+/* --Top bar */
+
+/* Jumbotron */
+.jumbo img {
+    height: 260px;
+}
+.jumbo h3 {
+    font-weight: normal;
+}
+/* --Jumbotron */
+
+/* Portfolio */
+.images img {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+.images i {
+    color: #3a546d;
+}
+/* --Portfolio */
+
+/* Contacts */
+.contacts ul {
+    list-style: none;
+}
+.contacts li {
+    border-bottom: 1px solid #3a546d;
+}
+.contacts li:last-child {
+    padding-bottom: 50px;
+}
+.contacts button {
+    margin-left: 38px;
+}
+/* --Contacts */
+
+/* References */
+.references span span {
+    color: #22a892;
+}
+/* --References */
